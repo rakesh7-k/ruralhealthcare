@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom utility styles for healthcare status badges */
+.trust-badge-high {
+  @apply bg-emerald-100 text-emerald-800 border border-emerald-300;
+}
+
+.trust-badge-medium {
+  @apply bg-amber-100 text-amber-800 border border-amber-300;
+}
+
+.trust-badge-low {
+  @apply bg-rose-100 text-rose-800 border border-rose-300;
+}
